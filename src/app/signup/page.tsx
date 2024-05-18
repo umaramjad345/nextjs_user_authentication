@@ -82,7 +82,7 @@ const SignUpPage = () => {
               id="email"
               name="email"
               value={user.email}
-              placeholder="umarziaii345@gmail.com"
+              placeholder="umarziaii@gmail.com"
               onChange={(e) => setUser({ ...user, email: e.target.value })}
               required
               className="border border-blue-600 rounded-lg w-full focus:outline-none text-blue-600 px-4 py-2"
